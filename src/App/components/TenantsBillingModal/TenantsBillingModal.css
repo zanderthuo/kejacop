@@ -1,0 +1,58 @@
+/* .ModalContent {
+    position: relative;
+    display: flex;
+    border-radius: 0 0 20px 20px;
+} */
+
+.modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0 0 20px 20px;
+    outline: 0;
+}
+
+.MuiAvatar-colorDefault {
+    color: #fafafa;
+    background-color: #bdbdbd;
+    /* position: absolute; */
+    right: -200px;
+    height: 100px;
+    width: 100px;
+    /* height: 80px; */
+}
+
+.Avata {
+    width: 60px;
+    height: 60px;
+    display: flex;
+}
+
+h5 {
+    position: relative;
+    left: 175px;
+    top: 25px
+}
+
+.Residence {
+    position: relative;
+    left: 140px;
+    top: 30px;
+}
+
+.ModalHeader {
+    position: relative;
+    background: #C4C4C4;
+    height: 200px;
+}
+
+.CircularProgressbar {
+    height: 90px;
+}

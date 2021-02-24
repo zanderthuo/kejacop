@@ -1,0 +1,79 @@
+.Canc{
+    position: relative;
+    text-align: center;
+    width: 131px;
+    height: 41px;
+    left: -156px;
+    top: 0px;
+    color: #fff;
+    background: #EB8F8F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* border-color: #EB8F8F; */
+    border-style: hidden;
+    border-radius: 10px;
+}
+
+.Addla{
+    position: relative;
+    width: 170px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    background: #9999FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* border-color: #9999FF; */
+    border-style: hidden;
+    border-radius: 15px;
+}
+
+.Addla:hover, .Addla:focus{
+    color: #fff;
+    background-color: #999FFF;
+    /* border-color: #40a9ff; */
+}
+
+.Canc:hover, .Canc:focus {
+    color: #fff;
+    background-color: #EB8F8F;
+    /* border-color: #40AA09; */
+}
+
+.ant-modal-footer {
+    padding: 10px 16px;
+    text-align: right;
+    background: #E5E5E5;
+    border-top: 1px solid #f0f0f0;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.ant-modal-header {
+    display: none;
+}
+
+
+.ant-modal-content {
+    position: relative;
+    background-color:#F7F8F9;
+    background-clip: padding-box;
+    /* border: 0; */
+    /* border-radius: 20px; */
+    /* -webkit-box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05); */
+    /* box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05); */
+    pointer-events: auto;
+    width: 504px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.ant-input {
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector{
+    position: relative;
+    width: 40%;
+    left: 140px;
+}

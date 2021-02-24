@@ -1,0 +1,12 @@
+/**
+Pagination
+*/
+
+.MuiPagination-ul {
+    margin: 0;
+    position: absolute;
+    display: flex;
+    top: 56vh;
+    left: 250px;
+    align-items: center;
+}

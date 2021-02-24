@@ -1,0 +1,22 @@
+
+/* Inline #6 | http://localhost:3000/propmeta/application */
+
+a {
+  /* color: #007bff; */
+  color: black;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  /* color: black; */
+  /* color: #000000\\; */
+  /* background: #F4F5F6; */
+  color: #000;
+  background: #F4F5F7;
+}
+
+
+@media screen and (max-width: 667px){
+  button.sc-AxheI.bzubqy.inviteApplicantBtn {
+    left: 150px;
+  }
+}

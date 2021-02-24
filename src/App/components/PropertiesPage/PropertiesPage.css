@@ -1,0 +1,164 @@
+.PropCard {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+.btnView {
+  position: relative;
+  width: 150px;
+  height: 40px;
+  right: -30px;
+  top: -15px;
+  background: #9595C9;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+}
+
+.btnAddNew {
+  position: relative;
+  right: -800px;
+  top: -65px;
+  width: 110px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #9595C9;
+  background: #fff;
+  box-sizing: border-box;
+  color: black;
+}
+
+
+.btnEdit {
+  position: absolute;
+  width: 100px;
+  right: -690px;
+top: -180px;
+  background: #FFFFFF;
+  border: 1px solid #9595C9;
+  box-sizing: border-box;
+  border-radius: 20px;
+  color: black;
+}
+
+
+/* Inline #18 | http://localhost:3000/propmeta/properties/propertyview */
+
+.propertyInfo {
+  position: absolute;
+  left: ;
+  right: -10px;
+  top: -150px;
+}
+
+button.sc-AxiKw.eQiMuf:focus {
+    outline: none;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 667px){
+    .cardRating.card {
+        top: 180px;
+    }
+    .UnitsOfOccupancyChart.card {
+        top: 180px;
+    }
+    .propInfo.card {
+        height: 350px;
+        top: 150px;
+    }
+    ul.propertyInfo {
+        top: 100px;
+    }
+    button.btnEdit.btn.btn-primary {
+        right: -190px;
+        top: -10px;
+    }
+    button.sc-AxirZ.cJvwzr {
+        left: 10px;
+        top: 10px;
+    }
+    button.sc-AxjAm.hmNuqg {
+        left: 170px;
+        top: 10px;
+    }
+}
+
+@media screen and (max-width: 640px){
+  button.sc-AxirZ.cJvwzr {
+  left: -5px;
+  /* width: 150px; */
+  }
+
+  button.sc-AxjAm.hmNuqg {
+     left: 150px;
+     width: 150px;
+  }
+
+  button.btnEdit.btn.btn-primary {
+    right: -150px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+    button.sc-AxirZ.cJvwzr {
+        left: -150px;
+        top: 10px;
+    }
+    button.sc-AxjAm.hmNuqg {
+        left: 280px;
+        top: 10px;
+    }
+    button.btnEdit.btn.btn-primary {
+        left: 550px;
+        top: -140px;
+    }
+
+    .cardRating.card {
+    width: 300px;
+}
+}
+
+@media screen and (max-width: 667px){
+  button.btnAddNew.btn.btn-primary {
+    left: 370px;
+  }
+}
+
+@media screen and (max-width: 667px){
+  button.sc-AxirZ.gVRpnT {
+    left: 0px;
+    top: 10px;
+  }
+  button.btnEdit.btn.btn-primary {
+    left: 160px;
+    top: -215px;
+  }
+  .propInfo.card {
+    height: 350px;
+    top: 90px;
+  }
+  .UnitsOfOccupancyChart.card {
+    top: 140px;
+    width: 280px;
+  }
+  ul.propertyInfo {
+      top: 100px;
+      left: 10px;
+  }
+  .cardRating.card {
+    width: 270px;
+    left: -10px;
+  }
+
+}
+
+/* @media screen and (max-width: 1024px){
+  button.btnEdit.btn.btn-primary {
+    left: 180px;
+    top: -165px;
+  }
+} */

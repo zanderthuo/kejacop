@@ -1,0 +1,59 @@
+
+/* Inline #6 | http://localhost:3000/propmeta/application */
+
+a {
+  /* color: #007bff; */
+  color: black;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  /* color: black; */
+  /* color: #000000\\; */
+  /* background: #F4F5F6; */
+  color: #000;
+  background: #F4F5F7;
+}
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 667px){
+  button.sc-fznyAO.hOfQjg {
+    left: 165px;
+    top: 15px;
+  }
+}
+
+/* @media screen and (max-width: 1024px){
+    button.sc-AxhUy.bpyHvu {
+    left: 550px;
+}
+button.btnAddProperty.btn.btn-primary {
+    left: 240px;
+}
+.btnCancel.btn.btn-primary {
+    left: 0px;
+}
+}
+
+@media screen and (max-width: 600px){
+    button.sc-AxhUy.bpyHvu {
+      left: 280px;
+    }
+.btnCancel.btn.btn-primary {
+    left: 0px;
+  }
+button.btnAddProperty.btn.btn-primary {
+    left: 200px;
+  }
+}
+
+@media screen and (max-width: 667px) {
+
+  button.sc-AxhUy.bpyHvu {
+    left: 200px;
+}
+  .btnCancel.btn.btn-primary {
+      left: -10px;
+  }
+} */

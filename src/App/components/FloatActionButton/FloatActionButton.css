@@ -1,0 +1,7 @@
+button.MuiButtonBase-root.MuiFab-root.MuiFab-primary {
+    position: absolute;
+    left: px;
+    right: -540px;
+    top: 180px;
+    background: #7E7EEB;
+}

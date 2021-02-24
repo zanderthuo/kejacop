@@ -1,0 +1,15 @@
+.tpd{
+    position: absolute;
+    top: 550px;
+    right: 15px;
+    left: 250px;
+    
+}
+
+.MuiPaper-root {
+    background-color: #F7F8F9;
+}
+
+tr {
+    color: #F7F8F9;
+}

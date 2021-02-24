@@ -1,0 +1,31 @@
+
+/* Inline #40 | http://localhost:3000/propmeta/screening */
+
+.foUTdW {
+  /* left: 350px; */
+  left: 150px;
+}
+
+/* Inline #6 | http://localhost:3000/propmeta/screening */
+
+.card {
+  /* margin-bottom: 30px; */
+  margin-bottom: auto;
+}
+
+/* Inline #27 | http://localhost:3000/propmeta/screening */
+
+.MuiDrawer-paper {
+  /* position: fixed; */
+  /* overflow-y: auto; */
+  position: absolute;
+  overflow-y: none;
+}
+
+
+/*Media Queries*/
+@media screen and (max-width: 667px){
+  .sc-AxirZ.fDJAML.userScreening{
+    left: 70px;
+  }
+}

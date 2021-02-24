@@ -1,0 +1,10 @@
+.toolbar{
+    position: fixed;
+    width:100% ;
+    background:white;
+    left: 200px;
+}
+
+/* .toolWrap{
+    right:0
+} */
